@@ -81,7 +81,7 @@ public class JailbreakFreeKills : BasePlugin
 
         if (targetName.StartsWith("@"))
         {
-            player.PrintToChat($"{Prefix} Sadece isim belirterek FK kullanabilirsiniz (@ Gibi Çoğul Kişi Belirtmek yasaktır).");
+            player.PrintToChat($"{Prefix} Sadece isim belirterek FK kullanabilirsiniz.");
             return;
         }
 
